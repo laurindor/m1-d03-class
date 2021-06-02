@@ -8,7 +8,11 @@ rerequisite: ["JS Functions"]
 
 Write a function `checkPalindrome` that accepts a single argument, a string. The function should return true (Boolean) if the string is a palindrome, false if it is not. Make sure your function will give the correct answer for words with **capital letters**.
 
-```javascript
+
+function checkPalindrome(string) {
+  return string
+}
+
 console.log(checkPalindrome("Radar"));
 ```
 
@@ -66,6 +70,28 @@ This function can **call on** the previous `checkPrime` function.
 
 </details>
 
+
+function checkPrime(number) {
+  if (number === 0 || number === 1) return false;
+
+  for (let i = 2; i < number; i++) {
+    if (number % i === 0) return false;
+  }
+  return true;
+}
+
+console.log(25, checkPrime(25));
+console.log(7, checkPrime(7));
+console.log(9, checkPrime(9));
+console.log(15, checkPrime(15));
+console.log(10, checkPrime(10));
+
+
+ - - - - - - 
+
+
+
+
 **Commit your work!**
 Your commit message should read something like: <br>
 "prime numbers completed"
@@ -109,8 +135,22 @@ Your commit message should read something like:
 
 Write a function `sumDigits` that accepts a number and returns the sum of its digits.
 
-```
+function (sumdigits)
+
+
+
+
+
+
+
+
 console.log(sumDigits(42));
+
+
+
+
+
+
 ```
 
 > => 6
