@@ -1,38 +1,49 @@
+---
+prerequisite: null
+---
+
+# Module 1 - Day 3
+
 ![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)
 
-# Module 1 Unit 1
+## Lab
 
+[JS Clue](https://github.com/ironhack-labs/lab-javascript-clue)
 
-## Lab 
+## Slides
 
-[Link to LAB](# lab)
-
+[slides](slides-m1-d_03.md)
 
 ## Class
 
-- [Link Topic 1](# .md Topic 1)
+- sort() and reverse() Arrays
 
-- [Link Topic 1] (# .md Topic 2)
+- JS Objects
 
-- [Link Topic 1] (# .md Topic 3)
-
-- etc...
-
+- Arrays & Objects
 
 ## Self Guided
 
-[Link to Self Guided](# Self Guided)
-
-
-## Assesment 
-
-[Link to Assesment](# assesment)
-
+Free
 
 ## Extra Resources
 
-- [Link to Extra Resource 1](# Extra Resources 1)
+- [MDN Sort](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
 
-- [Link to Extra Resource 2](# Extra Resources 2)
+- [Sophisticated Sorting in JavaScript](https://www.sitepoint.com/sophisticated-sorting-in-javascript/)
 
-- [Link to Extra Resource 3](# Extra Resources 3)
+- [Array Methods - super useful](https://javascript.info/array-methods)
+
+- [`Object`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) - MDN Documentation.
+
+- [Access to Properties](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Property_accessors) - MDN Documentation.
+
+- [`delete` operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/delete) - Delete a property from an `Object`.
+
+- [`Object.keys()` method](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/keys) - Lists all the properties of an `Object`
+
+- [Back to Basics: JavaScript Objects](https://www.sitepoint.com/back-to-basics-javascript-object-syntax/)
+
+- [MDN Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+
+- [MDN Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
