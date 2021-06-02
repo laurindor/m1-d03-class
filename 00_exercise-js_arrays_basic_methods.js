@@ -24,11 +24,10 @@
 
 // DIGIT SUM 
 
-function sumDigits
+let number = 42;
+console.log(number.toString().split('').reduce(function(r, n) { 
+    return r + parseInt(n) }, 0));
 
-
-
-  console.log(sumDigits(42));
-
+  //console.log(sumDigits(42));
   
   //resultat 6
