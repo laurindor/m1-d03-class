@@ -88,12 +88,25 @@ console.log(number.toString().split('').reduce(function(r, n) { return r + parse
   //resultat 6
 
 //SECOND NUMBERS
+let someNumbers = [4,2,6,9,5];
 
-const someNumbers =[4,2,6,9,5]
+someNumbers.sort(function(a,b){
+    return b-a;
+});
+
+someNumbers.sort(function (b,a){
+  return b-a
+}); 
+
+console.log(someNumbers[1]); //the second highest: 6
+
+let someNumbers = [4,2,6,9,5];
 
 
+someNumbers.sort(function (b,a){
+  return b-a
+}); 
 
 
-  console.log(secondNumbers([4,2,6,9,5]));
-=> second highest: 6
-=> second lowest: 4
+console.log(someNumbers[1]); //The second lowest: 4 
+
